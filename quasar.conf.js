@@ -18,7 +18,7 @@ module.exports = function (/* ctx */) {
     // --> boot files are part of "main.js"
     // https://quasar.dev/quasar-cli/boot-files
     boot: [
-      
+
       'axios',
       'firebase'
     ],
@@ -68,6 +68,7 @@ module.exports = function (/* ctx */) {
     },
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-devServer
+     //host: '10.5.16.246',
     devServer: {
       https: false,
       port: 8080,
